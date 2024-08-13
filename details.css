@@ -55,9 +55,10 @@ nav ul li input[type="search"] {
 
 
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
-    margin-top: 20px ;
+    margin: auto  ;
+    
     
     
     background: #fff;
@@ -87,9 +88,8 @@ tr:hover{
 }
 
 h1 {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 2rem auto;
     font-size: 2em;
     color: #333;
 }

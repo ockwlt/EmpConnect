@@ -26,10 +26,16 @@
         <h1>Login</h1>
         <form id="login" >  
             <label for="username" id="username">User Name</label>
-            <input type="text" id="text" placeholder="Enter your Username" required>
+            <input type="text" id="text" placeholder="Enter your Username" 
+            pattern="^[a-zA-Z0-9_]{5,15}$" 
+            title="Username must be 5-15 characters long and can contain letters, numbers, and underscores only." 
+            required>
 
             <label for="password" id="password">Password</label>
-            <input type="password" id="pass" placeholder="Enter your password" required>
+            <input type="password" id="pass" placeholder="Enter your password" 
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required>
 
             <input type="submit" value="Login">
         </form>
