@@ -118,6 +118,7 @@ nav ul li input[type="search"] {
 .card img {
     width: 100%;
     height: auto;
+    
 }
 
 .card-content {
@@ -134,3 +135,34 @@ nav ul li input[type="search"] {
     color: #666;
 }
 
+.dropdown{
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 8px;
+    
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
