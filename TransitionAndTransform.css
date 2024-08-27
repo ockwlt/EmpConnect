@@ -1,0 +1,87 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: width 2s, height 2s, transform 2s;
+    margin: auto;
+}
+
+#div1:hover {
+    width: 300px;
+    height: 300px;
+    
+    /*transform: rotateX(180deg);
+    transform: rotateY(180deg);*/
+    transform: rotateZ(90deg);
+
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition:transform 2s;
+    margin: auto;
+  }
+
+  #div2:hover{
+    
+    transform: translate(50px, 100px);
+  }
+
+  #div3 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition: transform 1s;
+    margin: auto;
+  }
+
+  #div3:hover{
+    
+    transform: scale(2,3);
+  }
+
+  #div4 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: transform 1s;
+    margin: auto;
+  }
+
+  #div4:hover{
+    
+    transform: scaleX(0.5);
+    transform:scaleY(0.5);
+  }
+
+  #div5 {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transition: transform 1s;
+    margin: auto;
+  }
+
+  #div5:hover{
+    
+    transform: skew(20deg, 10deg);
+  
+  }
+
+  #div6 {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    transition:  transform 1s;
+    margin: auto;
+  }
+
+  #div6:hover{
+    /*matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())*/
+    transform: matrix(1, -0.3, 1, 1, 0.3, 0.4);
+
+  }
+
+  
